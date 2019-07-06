@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    font-family: "Open Sans";
+}
+.btn {
+    font-size: 15px;
+    margin-top: 10px;
+    transition-duration: .7s;
+}
+.btn:hover {
+    box-shadow: 3px 5px 20px 0px grey;
+    transition-duration: .7s;
+}
+.btnPlay {
+    margin-left: 20px;
+}
+.credit {
+    margin-top: 30px;
+    font-size: 60%;
+}
+.paragraph {
+    padding: 20px;
+    background-color: rgba(128, 128, 128,.2);
+}
+hr {
+    height: 3px;
+    background-color: grey;
+}
+.wikiLink {
+    color: red;
+    text-decoration: none;
+}
+.margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}

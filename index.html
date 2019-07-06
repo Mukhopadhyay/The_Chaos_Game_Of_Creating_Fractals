@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chaos Game in JavaScript</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/letter-c.png">
+</head>
+<body>
+
+    <h1>The <span><img src="./images/letter-c.png" height="20px">haos</span> Game</h1>
+    <hr/>
+    <p class="paragraph margin">
+        The <strong>Chaos Game</strong> is a mathematicall method of creating a fractal, using a polygon and an initial point selected at random inside it. The fractal is created by iteratively creating a sequence of points in the contained shape (polygon).starting with the initial random point, in which each point in the sequence is a given fraction of the distance between the previous point and one of the vertices of the polygon; the vertex is chosen at random in each iteration. Repeating this iterative process a large number of times, selecting the vertex at random on each iteration, and throwing out the first few points in the sequence, will often (but not always) produce a fractal shape.
+    </p>
+
+    <a class="wikiLink margin" href="https://en.wikipedia.org/wiki/Chaos_game" title="Chaos Game Wikipedia" target="_blank">Check Wikipedia</a>
+
+    <h2 class="margin" style="text-decoration: underline">Sierpinski triangle</h2>
+    <canvas id="triangle" class="margin"></canvas>
+    <br/>
+    <button onclick="play()" class="btn btnPlay">Draw point</button>
+    <button onclick="auto()" class="btn btnAuto">Automate process</button>
+    <script type="text/JavaScript" src="js/canvas.js" async></script>
+
+    <div class="margin credit">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</body>
+</html>
